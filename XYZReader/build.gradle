@@ -9,11 +9,8 @@ buildscript {
 apply plugin: 'com.android.application'
 
 repositories {
+    google()
     mavenCentral()
-    maven {
-        url 'https://maven.google.com/'
-        name 'Google'
-    }
 }
 
 android {
